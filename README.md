@@ -2,8 +2,7 @@
 
 ![.NET 6.0](https://img.shields.io/badge/.NET-6.0-blue) ![C#](https://img.shields.io/badge/Language-C%23-blueviolet) ![WinForms](https://img.shields.io/badge/UI-WinForms-lightgrey) ![MIT License](https://img.shields.io/badge/License-MIT-lightgrey)
 
-> Versão desktop modificada do jogo **Agar.io**, desenvolvida em C# com WinForms, adicionando controles via teclado e customização de skins.
-
+> Versão desktop modificada do jogo **Agar.io**, desenvolvida em C# com WinForms, adicionando controles via teclado.
 ---
 
 ## 📚 Sumário
@@ -25,7 +24,6 @@
 O **AgarioModified** é uma aplicação WinForms em C# que emula a jogabilidade do **Agar.io** na sua máquina local, oferecendo:
 
 - **Controles por teclado** (setas ou WASD) para movimentar a célula do jogador.
-- **Suporte a skins customizadas**, permitindo alterar seu visual via arquivos de imagem.
 - **Log de pontuação** e comportamento de colisão entre células.
 
 Este projeto serve como base para estudos de manipulação gráfica em GDI+ e lógica de jogos multiplayer simples.
@@ -67,9 +65,6 @@ double-click AgarioModified.sln
 
 1. Defina **AgarioModified** como projeto de inicialização no Visual Studio.
 2. Pressione **F5** ou **Run** para compilar e executar.
-3. Na aplicação:
-   - Use **setas** ou **WASD** para mover sua célula.
-   - Carregue skins na pasta `Skins/` (formato `.png`) e selecione no menu de opções.
 
 ---
 
@@ -83,8 +78,6 @@ AgarioModified/
 │   ├── MainForm.cs           # Lógica de UI e game loop
 │   ├── MainForm.Designer.cs  # Designer WinForms
 │   ├── Game.cs               # Lógica de jogo (movimentação, colisão)
-│   ├── SkinManager.cs        # Carregamento e aplicação de skins
-│   ├── Skins/                # Pasta para arquivos de imagem de skins
 │   ├── Resources/            # Assets adicionais (sons, imagens)
 │   └── app.config            # Configurações do projeto
 ├── .gitignore
